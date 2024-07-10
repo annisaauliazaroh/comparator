@@ -1,0 +1,4 @@
+com/example/comparator/ComparatorStepDefinitions.class
+com/example/comparator/RunCucumberTest.class
+com/example/comparator/ComparatorTest.class
+com/example/comparator/HttpClientTest.class

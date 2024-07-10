@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-09T11:20:20 WIB" name="Surefire suite" finished-at="2024-07-09T11:20:23 WIB" duration-ms="3009">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.comparator.RunCucumberTest@64485a47]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-09T11:20:20 WIB" name="Surefire test" finished-at="2024-07-09T11:20:23 WIB" duration-ms="3009">
+      <class name="com.example.comparator.RunCucumberTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.example.comparator.RunCucumberTest@64485a47]" started-at="2024-07-09T11:20:20 WIB" name="setUpClass" finished-at="2024-07-09T11:20:20 WIB" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.comparator.RunCucumberTest@64485a47]" started-at="2024-07-09T11:20:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-09T11:20:23 WIB" duration-ms="2902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Compare API responses from two files"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Compare API responses]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.comparator.RunCucumberTest@64485a47]" started-at="2024-07-09T11:20:23 WIB" name="tearDownClass" finished-at="2024-07-09T11:20:23 WIB" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.example.comparator.RunCucumberTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

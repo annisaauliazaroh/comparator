@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.comparator.RunCucumberTest" time="8.188" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/annisa/comparator-library/target/test-classes:/Users/annisa/comparator-library/target/classes:/Users/annisa/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/annisa/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/annisa/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/annisa/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/annisa/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/annisa/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/annisa/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/annisa/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/annisa/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-testng/6.9.1/cucumber-testng-6.9.1.jar:/Users/annisa/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/annisa/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/annisa/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/annisa/comparator-library/target/surefire/surefirebooter11604047055814315527.jar /Users/annisa/comparator-library/target/surefire 2024-07-09T11-20-20_140-jvmRun1 surefire7310503415755491481tmp surefire_010865466388002122002tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/annisa/comparator-library/target/test-classes:/Users/annisa/comparator-library/target/classes:/Users/annisa/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/annisa/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/annisa/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/annisa/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/annisa/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/annisa/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/annisa/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/annisa/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/annisa/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/annisa/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/annisa/.m2/repository/io/cucumber/cucumber-testng/6.9.1/cucumber-testng-6.9.1.jar:/Users/annisa/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/annisa/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/annisa/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/annisa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/annisa/comparator-library"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/annisa/comparator-library/target/surefire/surefirebooter11604047055814315527.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
+    <property name="user.name" value="annisa"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/annisa/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/59/v60lptnx5f19xtwxjpx7twy80000gn/T/"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="/Users/annisa/comparator-library"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/annisa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-LTS-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario" classname="com.example.comparator.RunCucumberTest" time="2.903"/>
+</testsuite>
